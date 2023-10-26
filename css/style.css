@@ -651,6 +651,7 @@ header > .container {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px;
+  padding-top: 72px;
 }
 
 .modal-close-btn {
@@ -679,4 +680,15 @@ header > .container {
 
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-request {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--studio-color);
+}
+.modal-form-item {
 }
