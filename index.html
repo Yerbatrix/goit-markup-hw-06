@@ -438,8 +438,22 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe-form">
+          <form>
+            <label class="footer-email-label" for="footer-email">Subscribe</label>
+            <div class="footer-email-subcribe">
+              <input id="footer-email" type="email" placeholder="E-mail" class="footer-email-input"/>
+              <button class="subscribe-button" type="submit">
+                <span class="subcribe-button-text">Subscribe</span>
+                <svg width="24" height="24" class="subscribe-button-icon">
+                  <use href="./images/icons.svg#icon-paper-plane"></use>
+                </svg>
+              </button>
+            </div>
+            
+          </form>
+        </div>
       </div>
-    </footer>
 
     <div class="modal is-hidden" data-modal>
       <div class="modal-box">
@@ -454,19 +468,19 @@
         <form>
           <ul class="list">
             <li class="modal-form-item">
-              <label for="name">Name</label>
+              <label class="modal-label" for="name">Name</label>
               <div><input type="text" name="Name" id="name" /></div>
             </li>
             <li class="modal-form-item">
-              <label for="phone">Phone</label>
+              <label class="modal-label" for="phone">Phone</label>
               <div><input type="tel" name="Phone" id="phone" /></div>
             </li>
             <li class="modal-form-item">
-              <label for="Email">Email</label>
+              <label class="modal-label" for="Email">Email</label>
               <div><input type="email" name="Email" id="Email" /></div>
             </li>
             <li class="modal-form-item">
-              <label for="comment-area">Comment</label>
+              <label class="modal-label" for="comment-area">Comment</label>
               <div>
                 <textarea
                   id="comment-area"
@@ -477,12 +491,13 @@
               </div>
             </li>
             <li class="modal-form-item">
-              <label for="term-accept"
+              <label class="modal-label" for="term-accept"
                 >I accept the terms and conditions of the Privacy Policy</label
               >
               <input id="term-accept" type="checkbox" />
             </li>
           </ul>
+          <button type="sumbit">Send!</button>
         </form>
       </div>
     </div>

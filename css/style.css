@@ -603,6 +603,57 @@ header > .container {
   fill: var(--cloud);
 }
 
+.footer-subscribe-form {
+  margin-left: 80px;
+}
+
+.footer-email-label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+}
+
+.footer-email-subcribe {
+  margin-top: 16px;
+  display: flex;
+}
+
+.footer-email-input {
+  height: 40px;
+  width: 264px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding: 8px 16px;
+  color: #fff;
+}
+
+.subscribe-button {
+  background-color: var(--logo-color);
+  margin-left: 24px;
+  text-align: center;
+  min-width: 156px;
+  min-height: 40px;
+  padding: 8px 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.subscribe-button-icon {
+  fill: #fff;
+}
+
+.subcribe-button-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
 .navigation-underline {
   position: relative;
   color: #404bbf;
@@ -690,5 +741,12 @@ header > .container {
   letter-spacing: 0.32px;
   color: var(--studio-color);
 }
-.modal-form-item {
+
+.modal-label {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+  color: var(--LIGHT-SLATE);
 }
