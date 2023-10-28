@@ -614,12 +614,11 @@ header > .container {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  gap: 24px;
 }
 
 .footer-email-subcribe {
   display: flex;
+  gap: 24px;
 }
 
 .footer-email-input {
@@ -650,7 +649,6 @@ header > .container {
 
 .subscribe-button {
   background-color: #4d5ae5;
-  margin-left: 24px;
   text-align: center;
   min-width: 165px;
   height: 40px;
