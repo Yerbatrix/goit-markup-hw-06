@@ -614,6 +614,8 @@ header > .container {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 24px;
 }
 
 .footer-email-subcribe {
@@ -635,7 +637,6 @@ header > .container {
 }
 
 .footer-input-label {
-  gap: 24px;
 }
 
 .footer-email-input::placeholder {
