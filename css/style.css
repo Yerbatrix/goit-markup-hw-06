@@ -804,7 +804,39 @@ header > .container {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-item-icon:hover,
-.modal-item-icon:focus {
-  fill: #4d5ae5;
+.modal-comment {
+  margin-bottom: 16px;
+}
+
+.user-comment-area {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.user-comment-area:hover,
+.user-comment-area:focus {
+  border-color: #4d5ae5;
+}
+
+.user-privacy {
+  margin-bottom: 24px;
+}
+
+.user-privacy-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--LIGHT-SLATE);
 }
