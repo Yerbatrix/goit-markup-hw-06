@@ -793,6 +793,14 @@ header > .container {
   border-color: #4d5ae5;
 }
 
+.modal-input:focus + .modal-item-icon {
+  fill: #4d5ae5;
+}
+
+.modal-input:hover + .modal-item-icon {
+  fill: #4d5ae5;
+}
+
 .modal-item-icon {
   position: absolute;
   left: 16px;
