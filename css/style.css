@@ -7,6 +7,7 @@
   --CORNFLOWER: #e7e9fc;
   --WHITE: #fff;
   --LIGHT-SLATE: #8e8f99;
+  --CHECKBOX: #404bbf;
 }
 
 h1,
@@ -846,6 +847,12 @@ header > .container {
   color: var(--LIGHT-SLATE);
 }
 
+.privacy-true-checkbox:checked + label > span {
+  background-color: var(--CHECKBOX);
+  border: none;
+  fill: var(--cloud);
+}
+
 .privacy-checkbox {
   width: 16px;
   height: 16px;
@@ -858,4 +865,34 @@ header > .container {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.priv-pol-link {
+  color: var(--logo-color);
+}
+
+.send-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
+}
+
+.send-button:focus,
+.send-button:hover {
+  background-color: #404bbf;
 }
