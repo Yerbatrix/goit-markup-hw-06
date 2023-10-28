@@ -635,6 +635,10 @@ header > .container {
   padding-left: 16px;
 }
 
+.footer-input-label {
+  gap: 24px;
+}
+
 .footer-email-input::placeholder {
   color: #fff;
   font-size: 12px;
